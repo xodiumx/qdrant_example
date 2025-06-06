@@ -7,6 +7,9 @@ requires-python = ">=3.13"
 dependencies = []
 
 [dependency-groups]
+dev = [
+    "mypy>=1.16.0",
+]
 main = [
     "dataset>=1.6.2",
     "datasets>=3.6.0",
